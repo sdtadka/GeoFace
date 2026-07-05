@@ -1078,7 +1078,7 @@ const App = () => {
         {/* Demo mode indicator */}
         {!localStorage.getItem(GAS_URL_KEY) && (
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs text-amber-700 text-center">
-            </strong> or <strong></strong>
+             — Login: <strong>admin@gmail.com</strong> or <strong>worker@gmail.com</strong>
           </div>
         )}
 
